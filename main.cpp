@@ -15,7 +15,7 @@ bool read_numbers(int * ptr, unsigned int size)
 			return false;
 		}
 	}
-	return stream.eof();
+	return true;
 }
 
 int invers(int * ptr) 
